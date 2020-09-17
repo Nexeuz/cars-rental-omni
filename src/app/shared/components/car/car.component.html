@@ -1,0 +1,17 @@
+<mat-card (click)="openCar()" mat-ripple class="car-card">
+  <mat-card-header>
+    <mat-card-title>{{ car.model }}</mat-card-title>
+    <mat-card-subtitle> {{ car.brand }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="car.photoShort" alt="Car photo">
+  <mat-card-content>
+    <app-details-component>
+      <price>
+        {{ car.price | currency:'USD' }}
+      </price>
+      <year>
+        {{ car.year }}
+      </year>
+    </app-details-component>
+  </mat-card-content>
+</mat-card>

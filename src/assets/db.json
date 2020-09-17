@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "photoX2": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "photoShort": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "model": "Coroya",
+    "year": 2015,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapienteLorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente.",
+    "brand": "chevrolet",
+    "price": "20000"
+  },
+  {
+    "id": 2,
+    "photoX2": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "photoShort": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "model": "Coroya",
+    "year": 2016,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente.",
+    "brand": "chevrolet",
+    "price": "20000"
+  },
+  {
+    "id": 3,
+    "photoX2": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "photoShort": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "model": "Coroya",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapienteLorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente.",
+    "year": 2017,
+    "brand": "chevrolet",
+    "price": "20000"
+  },
+  {
+    "id": 4,
+    "photoX2": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "photoShort": "https://www-cdn.rac.com.au/-/media/images/rac-website/car-and-motoring/general-articles/australias-best-cars-2019/cm_aust_best_cars_small_under_35k_2019.jpg",
+    "model": "Coroya",
+    "year": 2018,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapienteLorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente.     \"description\": \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapienteLorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente..    \"description\": \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapienteLorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium debitis, dicta eaque eveniet, explicabo maxime nesciunt officia omnis pariatur provident quod, reprehenderit vitae. At cupiditate dolore eaque, ex fuga sapiente..",
+    "brand": "chevrolet",
+    "price": "20000"
+  }
+]

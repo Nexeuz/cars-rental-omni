@@ -1,0 +1,12 @@
+<div class="cars-actions">
+  <p class="mat-display-1">
+    List of a good looking cars:
+  </p>
+    <mat-checkbox (change)="listenChange($event)" class="example-margin">Filter by year</mat-checkbox>
+
+</div>
+<div  class="cars-container">
+  <app-car *ngFor="let car of cars$ | async" [car]="car">
+  </app-car>
+</div>
+

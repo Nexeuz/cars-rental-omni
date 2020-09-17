@@ -1,0 +1,20 @@
+<div class="car-details">
+  <p>
+    <small>Year</small>
+    <ng-content select="year"></ng-content>
+  </p>
+
+  <p  #ref><ng-content select="brand"></ng-content></p>
+  <p *ngIf="ref.children.length !== 0">
+    <small>
+      Brand
+    </small>
+     <ng-content select="brand"></ng-content>
+  </p>
+
+  <p>
+    <small>Price</small>
+    <ng-content select="price"></ng-content>
+  </p>
+
+</div>

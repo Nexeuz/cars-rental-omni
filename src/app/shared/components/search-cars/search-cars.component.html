@@ -1,11 +1,13 @@
-<form (ngSubmit)="submit()" [formGroup]="form" class="search-cars-container">
-  <mat-form-field appearance="outline"  class="search-cars-container__form-field">
-    <mat-label>Search a beautiful car</mat-label>
-    <input formControlName="search"  matInput placeholder="Type a car">
-  </mat-form-field>
-  <button type="submit" mat-mini-fab>
-    <mat-icon>
-      search
-    </mat-icon>
-  </button>
+<form (ngSubmit)="submit()" [formGroup]="form" >
+  <div class="search-cars-container">
+    <mat-form-field appearance="outline"  class="search-cars-container__form-field">
+      <mat-label>Search a beautiful car</mat-label>
+      <input formControlName="search"  matInput placeholder="Type a car">
+    </mat-form-field>
+    <button type="submit" mat-mini-fab>
+      <mat-icon>
+        search
+      </mat-icon>
+    </button>
+  </div>
 </form>

@@ -2,7 +2,17 @@
   <p class="mat-display-1">
     List of a good looking cars:
   </p>
-    <mat-checkbox (change)="listenChange($event)" class="example-margin">Filter by year</mat-checkbox>
+  <div class="filtered-options">
+    <mat-checkbox #checkbox (change)="listenChange($event)" class="example-margin">Filter by year 2015</mat-checkbox>
+    <button  mat-button [matMenuTriggerFor]="menu">Filter by Model</button>
+    <mat-menu  #menu="matMenu">
+      <button (click)="filterByModel(model)" *ngFor="let model of models" mat-menu-item>{{ model }}</button>
+    </mat-menu>
+    <button         matTooltip="Reset current filters"
+                    (click)="resetFilters()" mat-mini-fab [disabled]="!filterActive">
+        <mat-icon>format_clear</mat-icon>
+    </button>
+  </div>
 
 </div>
 <div  class="cars-container">

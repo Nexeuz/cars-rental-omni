@@ -1,11 +1,18 @@
-.search-cars-container {
+
+form {
+  justify-content: center;
   display: flex;
-  margin: 20px;
-  gap: 20px;
-  &__form-field {
-    width: 100%;
-  }
-  button {
-    margin-top: 10px;
+  .search-cars-container {
+    width: 87vw;
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    &__form-field {
+      width: 100%;
+    }
+    button {
+      margin-top: 10px;
+    }
   }
 }
+

@@ -14,6 +14,7 @@ import {MatRippleModule} from '@angular/material/core';
 import { ModalCarDetailComponent } from './components/modal-car-detail/modal-car-detail.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DetailsComponentComponent } from './components/details-component/details-component.component';
+import {RouterModule} from '@angular/router';
 
 
 
@@ -30,7 +31,8 @@ import { DetailsComponentComponent } from './components/details-component/detail
     ReactiveFormsModule,
     MatCardModule,
     MatRippleModule,
-    MatDialogModule
+    MatDialogModule,
+    RouterModule
   ],
   schemas: [NO_ERRORS_SCHEMA]
 })

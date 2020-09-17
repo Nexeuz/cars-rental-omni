@@ -7,6 +7,10 @@ import {SharedModule} from '../../shared/shared.module';
 import {MatRadioModule} from '@angular/material/radio';
 import { FilterCarsComponent } from './components/filter-cars/filter-cars.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     CarsRoutingModule,
     SharedModule,
     MatRadioModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule,
+    MatTooltipModule
   ]
 })
 export class CarsModule { }
